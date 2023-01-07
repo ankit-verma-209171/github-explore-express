@@ -1,0 +1,27 @@
+{
+  "name": "my-demo-project",
+  "version": "1.0.0",
+  "author": "Ankit Verma",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ankit-verma-209171/demo-repo.git"
+  },
+  "keywords": [
+    "node"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ankit-verma-209171/demo-repo/issues"
+  },
+  "homepage": "https://github.com/ankit-verma-209171/demo-repo#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "nodemon": "^2.0.20"
+  }
+}
