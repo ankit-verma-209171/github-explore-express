@@ -10,7 +10,7 @@ test("test hello world", async () => {
     });
 });
 
-test("test bye world", async () => {
+test("test bye world endpoint", async () => {
   await supertest(app)
     .get("/bye")
     .expect(200)
