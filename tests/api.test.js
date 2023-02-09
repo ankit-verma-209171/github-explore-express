@@ -18,3 +18,12 @@ test("test bye world", async () => {
       expect(res.body.bye).toBe("world");
     });
 });
+
+test("test feature", async () => {
+  await supertest(app)
+    .get("/feature")
+    .expect(200)
+    .then((res) => {
+      expect(res.body.feature).toBe("new feature");
+    });
+});
