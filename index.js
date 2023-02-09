@@ -12,6 +12,10 @@ app.get("/bye", (req, res) => {
   res.json({ bye: "world" });
 });
 
+app.get("/feature", (req, res) => {
+  res.json({ feature: "new feature" });
+});
+
 if (process.env.NODE_ENV !== "test") {
   app.listen(port, () => console.log(`Listening on port: ${port}`));
 }
